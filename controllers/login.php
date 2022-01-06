@@ -1,7 +1,7 @@
 <?php  
 
 	# Incluindo os arquivos necessários
-	include_once dirname(__DIR__)."/project/models/config.php";
+	include_once dirname(__DIR__)."/models/config.php";
 	include_once $project_path."/project/models/connect.php";
 	include_once $project_path."/project/models/manager.php";
 
