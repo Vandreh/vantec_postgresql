@@ -109,7 +109,7 @@
       <div class="main">
          <div class="col-md-6 col-sm-12">
             <div class="login-form">
-               <form action="controllers/login.php" method="POST">
+               <form action="project/controllers/login.php" method="POST">
                   <div class="form-group">
                      <label>Email</label>
                      <input type="text" class="form-control" placeholder="Email" name="email" required>
