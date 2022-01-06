@@ -1,8 +1,8 @@
 <?php  
 	
 	# Incluindo os arquivos necessários
-	include_once "../models/connect.php";
-	include_once "../models/manager.php";
+	include_once $GLOBALS['project_path']."/models/connect.php";
+	include_once $GLOBALS['project_path']."/models/manager.php";
 
 	function validate_options(){
 	    
