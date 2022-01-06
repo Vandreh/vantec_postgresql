@@ -11,7 +11,7 @@
 
 		public static function get_instance(){
 			if(!isset(self::$instance)){
-				self::$instance = new PDO('pgsql:host=ec2-54-172-219-6.compute-1.amazonaws.com;dbname=ddsn64b6n49enc;', 'zrfshjeedozojf', '39133ad9f7575734f332d27c3e4d88d4e63d7a9a989c2828cc2b8dadd9a3f5bb');
+				self::$instance = new PDO('pgsql:host=ec2-35-169-212-189.compute-1.amazonaws.com;dbname=d3eaier7gu0mh9;', 'bdvbbhjiywlbjz', '6421d15ed9cfe33ca432d5911c665d0a84026b94671ee6e99c07f17c03064b53');
 				self::$instance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 				self::$instance->setAttribute(PDO::ATTR_ORACLE_NULLS, PDO::NULL_EMPTY_STRING);
 			}
